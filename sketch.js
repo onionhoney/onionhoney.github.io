@@ -23,7 +23,7 @@ const BACK = 48;
 const WINDOW = 1500;
 const iter = 6;
 const incr = 2;
-const INIT_ITER = 15000;
+const INIT_ITER = 10000;
 
 var probGen = linearRangeGen(0.80, 0.99);
 var colorGen = uniformChoice([0, BACK]);
