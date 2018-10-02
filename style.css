@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
+.overlay {
+	background-color: #000;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	transition: .5s ease;
+	top: 0;
+	width: 100%;
+}
+
+.cell-container:hover .overlay {
+	opacity: .75;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.img-container {
+}
+
+.myrow {
+    max-width: 800px;
+}
+
+body {
+    background: #333;
+}
+
+.intro {
+    font-family: 'Abel', 'helvetica', sans-serif;
+    font-weight: 100;
+    color: white;
+    background-color: rgba(48, 48, 48, 0.5);
+    border: 1px solid white ;
+    border-radius: 2px;
+}
+
+
+.about-me a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.link, .link a {
+    text-decoration: none;
+}
+
+.intro hr {
+    border-color: white;
+}
+
+.intro .btn {
+    font-size: 1.15rem;
+}
+.intro {
+    transition: ease 0.3s;
+}
+
+.hover:hover {
+    background:rgba(150, 150, 150, 0.7);
+    transform: scale(1.05, 1.05);
+}
+
+.avatar-div {
+}
+.avatar {
+    border-radius: 50%;
+    width: 50%;
+}
+
+#canvas-holder {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
